@@ -1,0 +1,19 @@
+.searchList-container{
+    position: absolute;
+    background-color: white;
+    top: 2.7rem;
+    width: 90.75%;
+    height: fit-content;
+    z-index: 90;
+}
+.titleIteam{
+    margin: 0%;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.titleIteam:hover{
+    background-color: aliceblue;
+}
+.searchlist_search-icon{
+    margin-right: 1rem;
+}

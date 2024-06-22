@@ -1,0 +1,12 @@
+.chanel_container{
+    display: flex;
+    
+}
+.chanel_container2{
+    cursor: pointer;
+    margin: .4rem;
+    margin-bottom: 0;
+    width: calc(100% - .8rem);
+    height: 70%;
+    border: 2px solid transparent;
+}

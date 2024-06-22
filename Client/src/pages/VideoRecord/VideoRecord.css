@@ -1,0 +1,33 @@
+.record-video{
+    height: 100%;
+    width: 100%;
+}
+.recored-vids{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 2rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+.re-vids{
+    height: 16rem;
+}
+.btns-save{
+    margin-top: .3rem;
+}
+.igXuCY{
+ min-height: 44rem !important;
+}
+.file-upload{
+    color: white;
+    margin-top: .8rem;
+    text-align: center;
+}
+.file-upload input{
+    color: white;
+    margin-top: 1rem;
+    transform: translateX(2.7rem);
+}
+.file{
+    margin-top: 2rem;
+}

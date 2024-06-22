@@ -1,0 +1,42 @@
+.searchbar_container{
+    margin: auto;
+    display: flex;
+    flex-grow: 2;
+    height: 2rem;
+}
+.searchbar_container2{
+    margin: auto;
+}
+.search_div{
+    display: flex;
+    /* margin: auto; */
+    position: relative;
+    z-index: 90;
+}
+.search_box{
+    background-color: rgb(21, 21, 21);
+    width: 30rem;
+    border: 1px solid rgba(128,128,128,0.4);
+    font-size: 1rcap;
+    padding: 1.4rem;
+    height: 2rem;
+    padding-left: 2rem;
+    color: white;
+    border-radius: 40px;
+}
+.search_box::placeholder{
+    font-size: .8rem;
+    vertical-align: middle; 
+    color: gray;
+}
+.svgs{
+    cursor: pointer;
+    height: 1.2rem;
+    width: 2rem;
+    margin-top: 0.2rem;
+    border-radius: .4rem;
+}
+.mick_icon{
+    border-radius: 100%;
+    margin: 0.3rem;
+}

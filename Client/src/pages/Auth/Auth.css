@@ -1,0 +1,121 @@
+.Auth_container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 500;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 0.85rem;
+  
+  }
+  .Auth_container2 {
+  padding: 0.6rem;
+  display: flex;
+  position: absolute;
+  right: 2.5rem;
+  background-color: #0f0f0f;
+  top: 1rem;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid rgba(102, 102, 102, 0.6);
+  color: aliceblue;
+  z-index: 500;
+  border-radius: 1rem;
+
+  }
+  .logo{
+    padding: .5rem;
+    margin: auto;
+    font-size: 1.125rem;
+    background-color: rgb(224,227,224);
+    color: black;
+    border-radius: 100%;
+    font-weight: bolder;
+  }
+  .User_Details{
+    margin: 0 auto;
+    padding: 0.7rem;
+    /* display: flex; */
+    border-bottom: 2px solid grey;
+    padding-inline-start: 1.2rem 0rem;
+    
+  }
+
+  .email_Auth {
+    font-size: larger;
+    padding: 0.5rem 0.5rem;
+    font-weight: bolder;
+    margin: auto;
+  }
+  .btn_Auth{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 0.85rem;
+    padding: 0.2rem 0rem;
+    border: 0;
+    background-color: transparent;
+    display: flex;
+  }
+  .btn_Aut{
+    color: #3ea6ff;
+    font-size: larger;
+  }
+  .btn_Auth:hover {
+    background-color: rgb(47, 47, 47);
+  }
+  .btns,.section-1,.section-2,.section-3{
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(128,128,128,0.4);
+    cursor: pointer;
+    
+  }
+  .btns{
+    margin-top: .3rem;
+  }
+  .btns_Auth {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .view{
+    transform: translateX(-.7rem);
+  }
+  .view p{
+    padding-left: .8rem;
+  }
+  .your-chanel{
+    display: flex;
+    margin: .1rem auto;
+    padding-left: 1rem;
+    padding-top: .1rem;
+    padding-bottom: .2rem;
+  }
+  .btns,.section-1,.section-2,.section-3,.section-4{
+    padding-top: .4rem;
+    padding-bottom: .5rem;
+  }
+  .first svg{
+   margin-bottom: .3rem;
+   transform: translateY(.3rem);
+  }
+  .first p,.your-chanel p{
+    transform: translateY(.2rem);
+  }
+ .name-tag{
+  padding-left: 1rem;
+  vertical-align: baseline;
+ }
+ .first:hover,.your-chanel:hover{
+  color: aliceblue;
+  background-color: rgb(68,68,68);
+ }
+ .section-3 p{
+  transform: translateY(.5rem);
+ }
+ .section-4{
+  margin-top: .2rem;
+ }

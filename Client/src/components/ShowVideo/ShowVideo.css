@@ -1,0 +1,25 @@
+.show_container{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   row-gap: 5.7rem;
+   margin-bottom: 6rem;
+   width: 20rem;
+}
+.show_container video{
+   border-radius: .5rem;
+   height: 10rem;
+   overflow: hidden;
+   border-radius: .5rem;
+   object-fit: cover;
+   background-repeat: no-repeat
+ }
+.video_box{
+    width: 20rem;
+    height: fit-content;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: .1rem;
+    margin-top: 1rem;
+    border: 2px solid transparent;
+    border-radius: 6rem;
+}

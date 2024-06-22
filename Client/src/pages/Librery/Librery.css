@@ -1,0 +1,28 @@
+.container_page_app{
+    display: flex;
+}
+.librery_container{
+    border-bottom:1px solid grey ;
+    padding: 1rem 2rem;
+    color: aliceblue;
+}
+.librery_title{
+    margin: 0.5rem 4rem;
+}
+.librery_title b{
+    margin:  auto 0.5rem;
+    padding:  auto 0.5rem;
+    font-size: medium;
+}
+.container_videoList{
+    display: grid !important;
+    grid-template-columns: repeat(4,1fr) !important;
+    margin: 0;
+    max-height: 80vh;
+}
+.libb{
+    display: flex;
+}
+.container_videoList_LibraryPage{
+    display: flex;
+}

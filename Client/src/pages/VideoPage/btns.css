@@ -1,0 +1,27 @@
+.btn-page{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 5;
+}
+.btn_video_page{
+    margin:  auto 0rem;
+    display: flex;
+    
+}
+.like_video_page{
+    margin: 0.5rem;
+    display: flex;
+    cursor: pointer;
+}
+.btns_video_page{
+    margin: auto 0.7rem;
+}
+
+.like_video_page .like{
+    margin: auto;
+    padding-right: .5rem;
+}
+.like_video_page .Dislike{
+    margin: auto;
+    padding-right: .2rem;
+}
