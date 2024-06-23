@@ -33,8 +33,8 @@ mongoose
 
 app.use("/user", userRoutes);
 app.use("/video", videoRoutes);
-app.use("/comment", commentsRouts);
-app.use("/subscribe", subscribeRouts);
+// app.use("/comment", commentsRouts);
+// app.use("/subscribe", subscribeRouts);
 
 app.listen(port, () => {
     console.log(`Server Running on the Port: ${port}`);

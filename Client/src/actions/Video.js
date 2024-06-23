@@ -3,6 +3,8 @@ import * as api from "../api";
 export const uploadVideo = (fileData, onUploadProgress) => async (dispatch) => {
   try {
     const { data } = await api.uploadVideo(fileData, { onUploadProgress });
+    console.log("priting data",data);
+    alert(data);
     dispatch({ type: 'POST_VIDEO', data });
     dispatch(getAllvideos());
   } catch (error) {

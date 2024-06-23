@@ -20,7 +20,8 @@ const mid2 = (req,res, next)=>{
 }
 
 
-routes.post("/uploadvideo",auth ,upload.single("file"), uploadvideo);
+routes.post("/uploadvideo" ,upload.single("file"), uploadvideo);
+// routes.post("/uploadvideo",auth ,upload.single("file"), uploadvideo);
 routes.get("/getvideos", getAllvideos);
 
 
