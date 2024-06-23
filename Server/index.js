@@ -4,6 +4,8 @@ import dotenv from "dotenv";
 import bodyParser from "body-parser";
 import userRoutes from "./rotes/user.js";
 import videoRoutes from "./rotes/video.js";
+import commentsRouts from "./rotes/comments.js";
+import subscribeRouts from "./rotes/subscribe.js";
 import cors from "cors";
 import { Server } from "socket.io";
 import path from "path";
@@ -33,8 +35,8 @@ mongoose
 
 app.use("/user", userRoutes);
 app.use("/video", videoRoutes);
-// app.use("/comment", commentsRouts);
-// app.use("/subscribe", subscribeRouts);
+app.use("/comment", commentsRouts);
+app.use("/subscribe", subscribeRouts);
 
 app.listen(port, () => {
     console.log(`Server Running on the Port: ${port}`);

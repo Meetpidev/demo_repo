@@ -39,7 +39,7 @@ function UploadVideo({ setvideoUploadPage }) {
           if (percentage === 100) {
             setTimeout(() => {
               setvideoUploadPage(false);
-            }, 3000);
+            }, 1000);
           }
         })
       );

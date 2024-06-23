@@ -45,7 +45,7 @@ function App() {
 
   
   const [Creatchanel,setCreatchanel] = useState(false);
-  const [videoUploadPage,setvideoUploadPage] = useState(true);
+  const [videoUploadPage,setvideoUploadPage] = useState(false);
 
   return (
     <>

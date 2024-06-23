@@ -14,7 +14,6 @@ export const uploadvideo = async (req, res) => {
     try{ 
       const result = await cloudinary.uploader.upload(req.file.path, {
                 resource_type: 'video',
-                folder: 'spectra_DEV',
               });
               console.log("Result:",result);
                   const file = new videoFiles({
@@ -24,7 +23,7 @@ export const uploadvideo = async (req, res) => {
                       fileType: req.file.mimetype,
                       fileSize: req.file.size,
                       videoChanel: req.body.chanel,
-                      Uploader: req.body.Uploader || "Xyz",
+                      Uploader: req.body.Uploader,
                   })
                   await file.save();
     res.status(200).send("Video Uploaded Successfully");
