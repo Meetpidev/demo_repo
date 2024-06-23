@@ -8,10 +8,10 @@ export const uploadVideo = (fileData, onUploadProgress) => async (dispatch) => {
     dispatch({ type: 'POST_VIDEO', data });
     dispatch(getAllvideos());
   } catch (error) {
+    console.log(error);
     alert(error.response.data.message);
   }
 };
-
 
 export const getAllvideos = () => async (dispatch) =>{
     try {
