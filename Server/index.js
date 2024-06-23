@@ -25,7 +25,7 @@ app.use(express.json({ limit: "30mb", extended: true }));
 app.use(express.urlencoded({ limit: "30mb", extended: true }));
 
 mongoose
-    .connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+    .connect(CONNECTION_URL)
     .then(() => {
         console.log("Connection Successful..");
     })
